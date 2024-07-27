@@ -51,7 +51,7 @@
                 <a href="https://x.com/eventdev_" target="_blank">
                     <i class="fa-brands fa-twitter icons"></i>
                 </a>
-                <a href="https://github.com/seu_perfil" target="_blank">
+                <a href="https://github.com/DaviJoseMach/EventDev" target="_blank">
                     <i class="fa-brands fa-github icons"></i>
                 </a>
                 <a href="https://beacons.ai/davi.j" target="_blank">
