@@ -1,0 +1,6 @@
+O gitignore main, está ignorando para a push os seguintes arquivos
+.env
+/public/assets/img 
+/storage
+
+ATENTE-SE

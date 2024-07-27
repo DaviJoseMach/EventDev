@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+
+:root {
+    --cor-destaque: linear-gradient(45deg, #57EB85, #D7EB57);
+    --cor-fundo: #0F1411;
+    --cor-texto: white;
+}
+
+html, body {
+    background-color: rgb(2, 2, 2);
+    color: #636b6f;
+    font-family: "Fira Code", monospace;
+    background-image: url('../../public/assets/img/oficial_background.png');
+}
+
+.navbar-nav .nav-item {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navbar {
+    position: relative;
+    background-color: #5f5f5f00 !important;
+    backdrop-filter: blur(20px);
+}
+
+.rounded-bg .nav-link {
+    padding: 8px 10px;
+    color: white !important;
+    text-align: center;
+    display: block;
+}
+
+.navbar-brand {
+    font-weight: 400;
+}
+
+.icons {
+    color: white;
+    margin-top: 160px;
+    font-size: 60px;
+    transition: background 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+.icons:hover {
+    background: linear-gradient(45deg, #57EB85, #D7EB57);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    transform: scale(1.1);
+}
+
+.title {
+    font-size: 60px;
+    margin-top: 85px;
+    color: white;
+    font-weight: 600;
+}
+
+.custom-button {
+    display: inline-block;
+    padding: 13px 40px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.041);
+    border: 1px solid rgba(255, 255, 255, 0.712);
+    border-radius: 28px;
+    box-shadow: 0 2px 8px #6feb7b67;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+.custom-button:hover {
+    background-color: rgba(255, 255, 255, 0.082);
+    color: #fff;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.sub {
+    color: rgba(255, 255, 255, 0.774);
+    font-size: 30px;
+    margin-top: 55px;
+    font-weight: 200;
+}
+
+.bra {
+    background-image: var(--cor-destaque);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+@media (max-width: 768px) {
+    .title {
+        margin-top: 30px !important;
+        font-size: 55px !important;
+        margin: 10px;
+        margin-left: 30px;
+        text-align: left;
+    }
+
+    .icons {
+        margin-top: 50px;
+    }
+
+    .rounded-bg {
+        border-radius: 20px;
+        border: 1px solid rgba(0, 0, 0, 0);
+        margin-left: 0px;
+        display: inline-block;
+        width: 100px;
+    }
+
+    .rounded-bg .nav-link {
+        padding: 8px 10px;
+        color: white !important;
+        text-align: center;
+        display: block;
+    }
+
+    .sub {
+        text-align: left;
+        margin-left: 30px;
+        margin-top: 15px;
+        margin-bottom: -25px;
+    }
+
+    .footer {
+        display: none;
+    }
+
+    .custom-button {
+        display: inline-block;
+        padding: 13px 40px;
+        font-size: 20px;
+        text-align: center;
+        text-decoration: none;
+        color: #ffffff;
+        background-color: rgba(255, 255, 255, 0.041);
+        border: 1px solid rgba(255, 255, 255, 0.712);
+        border-radius: 28px;
+        box-shadow: 0 2px 8px #6feb7b67;
+        transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+        margin-top: -100px;
+        margin-bottom: 40px;
+    }
+}
